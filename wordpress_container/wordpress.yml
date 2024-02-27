@@ -16,7 +16,7 @@ services:
   wordpress:
     image: wordpress:latest
     volumes:
-      - wp_data: /var/www/html
+      - wp_data:/var/www/html
     ports:
       - 80:80
     restart: always
@@ -29,3 +29,5 @@ volumes:
   db_data: 
   wp_data:
 
+# executar com o comando docker compose -f wordpress.yml up
+# parar o server com Ctrl + C
