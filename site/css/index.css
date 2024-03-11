@@ -37,6 +37,21 @@ li {
 
 .banner {
     width: 100vw;
+    position: relative;
+}
+
+.banner_image {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 5rem;
 }
 
 .subtitulo {
